@@ -64,13 +64,14 @@ body {
 
 .age {
  font-size: 1rem;
- font-weight: 400;
+ font-weight: 700;
  color: var(--Dark-gray)
 }
 
 .location {
  margin-top: -2em;
  padding-top: 0.2em;
+ font-weight: 700;
  color: var(--Dark-gray);
  font-size: 0.8rem;
  margin-bottom: -.5em;
@@ -82,8 +83,9 @@ body {
  width: 100%;
  display: flex;
  justify-content: center;
- gap: 5em;
- padding-bottom: 2em;
+ gap: 4em;
+ padding-bottom: 2.1em;
+ font-size: 0.8rem;
 }
 
 .stats div>h2 {
@@ -95,5 +97,6 @@ body {
 }
 
 .wrap {
- box-shadow: 1px 23px 38px 3px rgba(0, 0, 0, 0.25);
+ box-shadow: 1px 23px 38px 3px rgba(0, 0, 0, 0.15);
+ border-radius: 15px;
 }
